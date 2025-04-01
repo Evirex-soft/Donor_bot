@@ -26,9 +26,8 @@ const handleButtonResponses = async (senderId, buttonId, res) => {
                     to: senderId,
                     type: "document",
                     document: {
-                        link: "https://docs.google.com/document/d/18TGyyuiXaJb3-jFXe0lJjXnCvo1GU0sJ/export?format=pdf",
-                        filename: "FoodOnWheels.pdf",
-                        caption: "Here's our information brochure in PDF format"
+                        link: "https://github.com/hareeshtj96/Donor_bot/raw/main/Food%20on%20Wheels.pdf",
+                        filename: "FoodOnWheels.pdf"
                     }
                 })
             ]);
